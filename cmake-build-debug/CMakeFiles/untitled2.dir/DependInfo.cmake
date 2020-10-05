@@ -4,8 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/eric-mendes/CLionProjects/untitled2/game.cpp" "/home/eric-mendes/CLionProjects/untitled2/cmake-build-debug/CMakeFiles/untitled2.dir/game.cpp.o"
-  "/home/eric-mendes/CLionProjects/untitled2/main.cpp" "/home/eric-mendes/CLionProjects/untitled2/cmake-build-debug/CMakeFiles/untitled2.dir/main.cpp.o"
+  "/home/eric-mendes/CLionProjects/jogo-da-velha/jogador.cpp" "/home/eric-mendes/CLionProjects/jogo-da-velha/cmake-build-debug/CMakeFiles/untitled2.dir/jogador.cpp.o"
+  "/home/eric-mendes/CLionProjects/jogo-da-velha/jogo.cpp" "/home/eric-mendes/CLionProjects/jogo-da-velha/cmake-build-debug/CMakeFiles/untitled2.dir/jogo.cpp.o"
+  "/home/eric-mendes/CLionProjects/jogo-da-velha/main.cpp" "/home/eric-mendes/CLionProjects/jogo-da-velha/cmake-build-debug/CMakeFiles/untitled2.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

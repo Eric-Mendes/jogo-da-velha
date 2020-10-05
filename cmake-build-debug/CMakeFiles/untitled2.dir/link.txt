@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/untitled2.dir/main.cpp.o CMakeFiles/untitled2.dir/game.cpp.o  -o untitled2 
+/usr/bin/c++  -g   CMakeFiles/untitled2.dir/main.cpp.o CMakeFiles/untitled2.dir/jogo.cpp.o CMakeFiles/untitled2.dir/jogador.cpp.o  -o untitled2 

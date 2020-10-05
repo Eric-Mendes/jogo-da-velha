@@ -43,10 +43,10 @@ RM = /home/eric-mendes/Documentos/CLion-2020.1.1/clion-2020.1.1/bin/cmake/linux/
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/eric-mendes/CLionProjects/untitled2
+CMAKE_SOURCE_DIR = /home/eric-mendes/CLionProjects/jogo-da-velha
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/eric-mendes/CLionProjects/untitled2/cmake-build-debug
+CMAKE_BINARY_DIR = /home/eric-mendes/CLionProjects/jogo-da-velha/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/untitled2.dir/depend.make
@@ -59,43 +59,58 @@ include CMakeFiles/untitled2.dir/flags.make
 
 CMakeFiles/untitled2.dir/main.cpp.o: CMakeFiles/untitled2.dir/flags.make
 CMakeFiles/untitled2.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric-mendes/CLionProjects/untitled2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/untitled2.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled2.dir/main.cpp.o -c /home/eric-mendes/CLionProjects/untitled2/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric-mendes/CLionProjects/jogo-da-velha/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/untitled2.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled2.dir/main.cpp.o -c /home/eric-mendes/CLionProjects/jogo-da-velha/main.cpp
 
 CMakeFiles/untitled2.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled2.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric-mendes/CLionProjects/untitled2/main.cpp > CMakeFiles/untitled2.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric-mendes/CLionProjects/jogo-da-velha/main.cpp > CMakeFiles/untitled2.dir/main.cpp.i
 
 CMakeFiles/untitled2.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled2.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric-mendes/CLionProjects/untitled2/main.cpp -o CMakeFiles/untitled2.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric-mendes/CLionProjects/jogo-da-velha/main.cpp -o CMakeFiles/untitled2.dir/main.cpp.s
 
-CMakeFiles/untitled2.dir/game.cpp.o: CMakeFiles/untitled2.dir/flags.make
-CMakeFiles/untitled2.dir/game.cpp.o: ../game.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric-mendes/CLionProjects/untitled2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/untitled2.dir/game.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled2.dir/game.cpp.o -c /home/eric-mendes/CLionProjects/untitled2/game.cpp
+CMakeFiles/untitled2.dir/jogo.cpp.o: CMakeFiles/untitled2.dir/flags.make
+CMakeFiles/untitled2.dir/jogo.cpp.o: ../jogo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric-mendes/CLionProjects/jogo-da-velha/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/untitled2.dir/jogo.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled2.dir/jogo.cpp.o -c /home/eric-mendes/CLionProjects/jogo-da-velha/jogo.cpp
 
-CMakeFiles/untitled2.dir/game.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled2.dir/game.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric-mendes/CLionProjects/untitled2/game.cpp > CMakeFiles/untitled2.dir/game.cpp.i
+CMakeFiles/untitled2.dir/jogo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled2.dir/jogo.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric-mendes/CLionProjects/jogo-da-velha/jogo.cpp > CMakeFiles/untitled2.dir/jogo.cpp.i
 
-CMakeFiles/untitled2.dir/game.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled2.dir/game.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric-mendes/CLionProjects/untitled2/game.cpp -o CMakeFiles/untitled2.dir/game.cpp.s
+CMakeFiles/untitled2.dir/jogo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled2.dir/jogo.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric-mendes/CLionProjects/jogo-da-velha/jogo.cpp -o CMakeFiles/untitled2.dir/jogo.cpp.s
+
+CMakeFiles/untitled2.dir/jogador.cpp.o: CMakeFiles/untitled2.dir/flags.make
+CMakeFiles/untitled2.dir/jogador.cpp.o: ../jogador.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric-mendes/CLionProjects/jogo-da-velha/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/untitled2.dir/jogador.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled2.dir/jogador.cpp.o -c /home/eric-mendes/CLionProjects/jogo-da-velha/jogador.cpp
+
+CMakeFiles/untitled2.dir/jogador.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled2.dir/jogador.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric-mendes/CLionProjects/jogo-da-velha/jogador.cpp > CMakeFiles/untitled2.dir/jogador.cpp.i
+
+CMakeFiles/untitled2.dir/jogador.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled2.dir/jogador.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric-mendes/CLionProjects/jogo-da-velha/jogador.cpp -o CMakeFiles/untitled2.dir/jogador.cpp.s
 
 # Object files for target untitled2
 untitled2_OBJECTS = \
 "CMakeFiles/untitled2.dir/main.cpp.o" \
-"CMakeFiles/untitled2.dir/game.cpp.o"
+"CMakeFiles/untitled2.dir/jogo.cpp.o" \
+"CMakeFiles/untitled2.dir/jogador.cpp.o"
 
 # External object files for target untitled2
 untitled2_EXTERNAL_OBJECTS =
 
 untitled2: CMakeFiles/untitled2.dir/main.cpp.o
-untitled2: CMakeFiles/untitled2.dir/game.cpp.o
+untitled2: CMakeFiles/untitled2.dir/jogo.cpp.o
+untitled2: CMakeFiles/untitled2.dir/jogador.cpp.o
 untitled2: CMakeFiles/untitled2.dir/build.make
 untitled2: CMakeFiles/untitled2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/eric-mendes/CLionProjects/untitled2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable untitled2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/eric-mendes/CLionProjects/jogo-da-velha/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable untitled2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/untitled2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -108,6 +123,6 @@ CMakeFiles/untitled2.dir/clean:
 .PHONY : CMakeFiles/untitled2.dir/clean
 
 CMakeFiles/untitled2.dir/depend:
-	cd /home/eric-mendes/CLionProjects/untitled2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/eric-mendes/CLionProjects/untitled2 /home/eric-mendes/CLionProjects/untitled2 /home/eric-mendes/CLionProjects/untitled2/cmake-build-debug /home/eric-mendes/CLionProjects/untitled2/cmake-build-debug /home/eric-mendes/CLionProjects/untitled2/cmake-build-debug/CMakeFiles/untitled2.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/eric-mendes/CLionProjects/jogo-da-velha/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/eric-mendes/CLionProjects/jogo-da-velha /home/eric-mendes/CLionProjects/jogo-da-velha /home/eric-mendes/CLionProjects/jogo-da-velha/cmake-build-debug /home/eric-mendes/CLionProjects/jogo-da-velha/cmake-build-debug /home/eric-mendes/CLionProjects/jogo-da-velha/cmake-build-debug/CMakeFiles/untitled2.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/untitled2.dir/depend
 
