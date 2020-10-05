@@ -45,16 +45,28 @@ void print(jogo* j) {
     }
 }
 
-void fazerJogada(jogo* j, int jogada) {
-    bool aux = false;
-    for (int & casa : j->casas) {
-        if (casa == jogada && casa != 0) {
-            casa = 0;
-            aux = true;
-            break;
+void trocaJogador(jogo* j) {
+    jogador* jTmp = j->p2;
+    j->p2 = j->p1;
+    j->p1 = jTmp;
+}
+
+bool jogadaValida(jogo* j, int jogada) {
+    bool valid = false;
+    if (jogada >= 1 and jogada <= 9) {
+        for (int & casa : j->casas) {
+            if (casa == jogada && casa != 0) {
+                casa = 0;
+                valid = true;
+                break;
+            }
         }
     }
-    if (!aux) {
+    return valid;
+}
+
+void fazerJogada(jogo* j, int jogada) {
+    if (!jogadaValida(j, jogada)) {
         cout << "Jogada Inválida!" << endl;
         return;
     } else {
@@ -68,9 +80,7 @@ void fazerJogada(jogo* j, int jogada) {
                 }
             }
         }
-        jogador* jTmp = j->p2;
-        j->p2 = j->p1;
-        j->p1 = jTmp;
+        trocaJogador(j);
     }
 }
 
