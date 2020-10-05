@@ -48,10 +48,10 @@ RM = /home/eric-mendes/Documentos/CLion-2020.1.1/clion-2020.1.1/bin/cmake/linux/
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/eric-mendes/CLionProjects/untitled2
+CMAKE_SOURCE_DIR = /home/eric-mendes/CLionProjects/jogo-da-velha
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/eric-mendes/CLionProjects/untitled2/cmake-build-debug
+CMAKE_BINARY_DIR = /home/eric-mendes/CLionProjects/jogo-da-velha/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric-mendes/CLionProjects/untitled2/cmake-build-debug/CMakeFiles /home/eric-mendes/CLionProjects/untitled2/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric-mendes/CLionProjects/jogo-da-velha/cmake-build-debug/CMakeFiles /home/eric-mendes/CLionProjects/jogo-da-velha/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric-mendes/CLionProjects/untitled2/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric-mendes/CLionProjects/jogo-da-velha/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,32 +123,59 @@ untitled2/fast:
 	$(MAKE) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/build
 .PHONY : untitled2/fast
 
-game.o: game.cpp.o
+jogador.o: jogador.cpp.o
 
-.PHONY : game.o
+.PHONY : jogador.o
 
 # target to build an object file
-game.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/game.cpp.o
-.PHONY : game.cpp.o
+jogador.cpp.o:
+	$(MAKE) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/jogador.cpp.o
+.PHONY : jogador.cpp.o
 
-game.i: game.cpp.i
+jogador.i: jogador.cpp.i
 
-.PHONY : game.i
+.PHONY : jogador.i
 
 # target to preprocess a source file
-game.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/game.cpp.i
-.PHONY : game.cpp.i
+jogador.cpp.i:
+	$(MAKE) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/jogador.cpp.i
+.PHONY : jogador.cpp.i
 
-game.s: game.cpp.s
+jogador.s: jogador.cpp.s
 
-.PHONY : game.s
+.PHONY : jogador.s
 
 # target to generate assembly for a file
-game.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/game.cpp.s
-.PHONY : game.cpp.s
+jogador.cpp.s:
+	$(MAKE) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/jogador.cpp.s
+.PHONY : jogador.cpp.s
+
+jogo.o: jogo.cpp.o
+
+.PHONY : jogo.o
+
+# target to build an object file
+jogo.cpp.o:
+	$(MAKE) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/jogo.cpp.o
+.PHONY : jogo.cpp.o
+
+jogo.i: jogo.cpp.i
+
+.PHONY : jogo.i
+
+# target to preprocess a source file
+jogo.cpp.i:
+	$(MAKE) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/jogo.cpp.i
+.PHONY : jogo.cpp.i
+
+jogo.s: jogo.cpp.s
+
+.PHONY : jogo.s
+
+# target to generate assembly for a file
+jogo.cpp.s:
+	$(MAKE) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/jogo.cpp.s
+.PHONY : jogo.cpp.s
 
 main.o: main.cpp.o
 
@@ -186,9 +213,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... untitled2"
-	@echo "... game.o"
-	@echo "... game.i"
-	@echo "... game.s"
+	@echo "... jogador.o"
+	@echo "... jogador.i"
+	@echo "... jogador.s"
+	@echo "... jogo.o"
+	@echo "... jogo.i"
+	@echo "... jogo.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

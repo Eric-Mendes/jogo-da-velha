@@ -6,11 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/home/eric-mendes/CLionProjects/untitled2/game.h
+/home/eric-mendes/CLionProjects/jogo-da-velha/jogador.h
+string
+-
 
-/home/eric-mendes/CLionProjects/untitled2/main.cpp
+/home/eric-mendes/CLionProjects/jogo-da-velha/jogo.h
+jogador.h
+/home/eric-mendes/CLionProjects/jogo-da-velha/jogador.h
+
+/home/eric-mendes/CLionProjects/jogo-da-velha/main.cpp
 iostream
 -
-game.h
-/home/eric-mendes/CLionProjects/untitled2/game.h
+jogo.h
+/home/eric-mendes/CLionProjects/jogo-da-velha/jogo.h
+jogador.h
+/home/eric-mendes/CLionProjects/jogo-da-velha/jogador.h
 

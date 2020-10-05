@@ -3,4 +3,4 @@ project(untitled2)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(untitled2 main.cpp game.cpp game.h)
+add_executable(untitled2 main.cpp game.h jogo.cpp jogo.h jogador.cpp jogador.h)
