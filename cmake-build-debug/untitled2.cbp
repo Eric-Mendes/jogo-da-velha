@@ -84,9 +84,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/eric-mendes/CLionProjects/jogo-da-velha/game.h">
-			<Option target="untitled2"/>
-		</Unit>
 		<Unit filename="/home/eric-mendes/CLionProjects/jogo-da-velha/jogador.cpp">
 			<Option target="untitled2"/>
 		</Unit>

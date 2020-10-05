@@ -10,14 +10,12 @@
 string
 -
 
-/home/eric-mendes/CLionProjects/jogo-da-velha/jogo.h
-jogador.h
-/home/eric-mendes/CLionProjects/jogo-da-velha/jogador.h
-
-/home/eric-mendes/CLionProjects/jogo-da-velha/main.cpp
+/home/eric-mendes/CLionProjects/jogo-da-velha/jogo.cpp
 iostream
 -
 jogo.h
+/home/eric-mendes/CLionProjects/jogo-da-velha/jogo.h
+
 /home/eric-mendes/CLionProjects/jogo-da-velha/jogo.h
 jogador.h
 /home/eric-mendes/CLionProjects/jogo-da-velha/jogador.h
